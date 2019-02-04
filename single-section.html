@@ -1,0 +1,1197 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <title>Chitkara Univeristy Music Festival</title>
+      <!-- BOOTSTRAP -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <!-- FULLPAGE SCROLL  -->
+      <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+      <link rel="stylesheet" type="text/css" href="css/animate.css" />
+      <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+      <!-- CUSTOM CSS  -->
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/media.css" />
+      <!-- GALLERY -->
+      <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" title="prettyPhoto main stylesheet" />
+   </head>
+   <body  id="full-page-scroll" >
+      <!--START LOADER -->
+      <div id="loader-wrapper">
+         <div id="loader"></div>
+         <div class="loader-section section-left">
+            <div class="hi"></div>
+         </div>
+      </div>
+      <!--   END LOADER  -->
+      <!--   START MUSIC  -->
+      <div id="music-wrapper">
+         <div class="audio-control">
+            <div class="control-wrapper">
+               <div class="button" id="prev">
+               </div>
+               <div class="button" id="next">
+               </div>
+            </div>
+         </div>
+         <div class="center-me">
+            <div id="equalizer" class="equalizer"></div>
+         </div>
+         <audio preload></audio>
+         <div id="show-play-list" class="show-play-list">
+            <p class="button">
+            </p>
+         </div>
+         <div class="play-list" id="play-list">
+            <ol>
+               <li><a href="#" data-src="mp3/track1.mp3" >Flicker (Acoustic)</a>
+               </li>
+               <li><a href="#" data-src="mp3/track2.mp3">Havana</a>
+               </li>
+               <li><a href="#" data-src="mp3/track3.mp3">Bad at Love</a>
+               </li>
+            </ol>
+         </div>
+      </div>
+      <!--   END MUSIC  -->
+      <!-- START MENU -->
+      <div class="navTrigger"><i></i>
+      </div>
+      <nav class="nav nav1">
+         <div class="nav1__links row">
+            <a href="#home-section" class="nav1__link col-md-3 col-sm-4 col-xs-12"  >
+               <div class="menu-text" >
+                  <span>HOME</span><br>
+                  <p>Come Explore The Fest</p>
+               </div>
+            </a>
+            <a href="#timeline-section" class="nav1__link col-md-3 col-sm-4 col-xs-12" >
+               <div class="menu-text" >
+                  <span>TIMELINE</span>
+                  <p>Let Know The Party Scene  </p>
+               </div>
+            </a>
+            <a href="#artist-section" class="nav1__link col-md-3 col-sm-4 col-xs-12" >
+               <div class="menu-text" >
+                  <span>ARTISTS</span>
+                  <p>Artist Who Gonna Pump You performances </p>
+               </div>
+            </a>
+            <a href="#sponsor-section"  class="nav1__link col-md-3 col-sm-4 col-xs-12"  >
+               <div class="menu-text" >
+                  <span>SPONSORS</span>
+                  <p>Our mighty Fest Boosters</p>
+               </div>
+            </a>
+            <a href="#gallery-section"  class="nav1__link col-md-3 col-sm-4 col-xs-12"  >
+               <div class="menu-text" >
+                  <span>GALLERY</span>
+                  <p>Discover The Moments artists  </p>
+               </div>
+            </a>
+            <a href="#ticket-section"  class="nav1__link col-md-3 col-sm-4 col-xs-12"  >
+               <div class="menu-text" >
+                  <span>TICKETS</span>
+                  <p>Passes To the Infinity sessions   </p>
+               </div>
+            </a>
+            <a href="#askus-section"  class="nav1__link col-md-3 col-sm-4 col-xs-12" >
+               <div class="menu-text" >
+                  <span>ASK US</span>
+                  <p>Know The  Fest Better</p>
+               </div>
+            </a>
+            <a href="#contact-section"  class="nav1__link col-md-3 col-sm-4 col-xs-12"  >
+               <div class="menu-text" >
+                  <span>CONNECT</span>
+                  <p>Reach The Nerves </p>
+               </div>
+            </a>
+            <a href="#reach-section"  class="nav1__link col-md-3 col-sm-4 col-xs-12" >
+               <div class="menu-text" >
+                  <span>REACH</span>
+                  <p>All Ways to The Fest</p>
+               </div>
+            </a>
+            <a href="#footer-section"  class="nav1__link col-md-3 col-sm-4 col-xs-12"  >
+               <div class="menu-text" >
+                  <span>CREDITS</span>
+               </div>
+            </a>
+            <a href="#artist-section"  class="nav1__link  col-md-6 col-sm-8 col-xs-12"  >
+               <div class="menu-text" >
+                  <h5>A 3-DAY EVENT
+                     YOU WON’T
+                     WANT TO MISS!
+                  </h5>
+                  <p>Booking Located throughout the Madrid, Freespirit Features International Dance and Music under One Roof</p>
+               </div>
+            </a>
+         </div>
+      </nav>
+      <!-- END MENU  -->
+      <!-- START CONTENT -->
+      <div class="main section-wrapper" id="fullpage">
+         <!-- START HOME SECTION -->
+         <section class="l-screen home-section ">
+            <div class="container-fluid">
+               <!-- START HOME CONTENT -->
+               <div id="container" class="wrapper">
+                  <ul id="scene" class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+                     <li id="parallax-home" class="layer" data-depth="0.10">
+                        <div id="background-home-2"></div>
+                     </li>
+                     <li>
+                        <div class="bg_pattern"></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <div class="home_title"><img src="images/home-logo.png" class="home-logo"  alt="logo" ></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <h3 class="title_content">&nbsp; MUSIC IS CALLING YOU <br>@ CHITKARA UNIVERSITY &nbsp;</h3>
+                     </li>
+                  </ul>
+               </div>
+               <!--END HOME CONTENT-->
+            </div>
+         </section>
+         <!--END HOME SECTION -->
+         <!-- START TIMELINE SECTION-->
+         <section class="l-screen timeline-section">
+            <div class="section-content">
+               <div class="container-fluid section-wrap">
+                  <div class="bg_pattern"></div>
+                  <header class="top-bar">
+                     <h2 class="top-bar__headline">TIMELINE</h2>
+                  </header>
+                  <div class="row vertical-center">
+                     <div class="single-section profile-wrap inverse no-appear " >
+                        <div class="wrap-container"  >
+                           <!-- START COLUMN -->
+                           <div class="column col-md-4  col-sm-12"  >
+                              <div class="square-wrap"  >
+                                 <div class="time-wrap">
+                                    <h5>GIYLIAN</h5>
+                                    <ul>
+                                       <li>20 December</li>
+                                       <li>Sunday</li>
+                                       <li>23:00-0:00</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- END COLUMN -->
+                           <!-- START COLUMN -->
+                           <div class="column col-md-4 " >
+                              <div class="square-wrap  main-circle"  >
+                                 <div class="time-wrap ">
+                                    <h5>TIMOTHY</h5>
+                                    <ul>
+                                       <li>21 December</li>
+                                       <li>Monday</li>
+                                       <li>20:00-21:00</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- END COLUMN -->
+                           <!-- START COLUMN THREE -->
+                           <div class="column col-md-4"  >
+                              <div class="square-wrap  "  >
+                                 <!-- FONT AWESOME ICON -->
+                                 <div class="time-wrap">
+                                    <h5>HALLWAK</h5>
+                                    <ul>
+                                       <li>22 December</li>
+                                       <li>Tuesday</li>
+                                       <li>12:00-13:00</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- END COLUMN -->
+                           <!-- START COLUMN -->
+                           <div class="column col-md-4 final-row" >
+                              <div class="square-wrap  "  >
+                                 <div class="time-wrap">
+                                    <h5>SAKERZ</h5>
+                                    <ul>
+                                       <li>23 December</li>
+                                       <li>Wednesday</li>
+                                       <li>13:00-14:00</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- START COLUMN -->
+                           <div class="column col-md-4 final-row"  >
+                              <div class="square-wrap"  >
+                                 <div class="time-wrap">
+                                    <h5>FALKEN</h5>
+                                    <ul>
+                                       <li>24 December</li>
+                                       <li>Thursday</li>
+                                       <li>20:00-21:00</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- END COLUMN -->
+                           <!-- START COLUMN -->
+                           <div class="column col-md-4 final-row"  >
+                              <div class="square-wrap  main-circle"  >
+                                 <div class="time-wrap ">
+                                    <h5>WILPHER</h5>
+                                    <ul>
+                                       <li>24 December</li>
+                                       <li>Thursday</li>
+                                       <li>22:00-23:00</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- END COLUMN -->
+                        </div>
+                        <!--END TIMELINE -->
+                     </div>
+                     <!-- END WRAP-CONTAINER -->
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- END TIMELINE  SECTION -->
+         <!-- START ARTIST SECTION -->
+         <section class="l-screen  artist-section">
+            <div class="container-fluid" id="artist_all_container">
+               <header class="top-bar" id="artist_head"  >
+                  <h2 class="top-bar__headline">ARTISTS</h2>
+               </header>
+               <div>
+                  <div class="row vertical-center">
+                     <!-- CLOSE BUTTON-->
+                     <span id="artist_back"><a href="#artist-section/0" class="artist-cd-close" title="close"></a></span>
+                     <div class="artist_content">
+                        <div class="artist_grid"  >
+                           <!-- START ARTIST -->
+                           <div class="m-artists-container l-slide">
+                              <div class="project-top" ></div>
+                              <div class="container">
+                                 <!-- START ARTIST -->
+                                 <figure class="effect-artist">
+                                    <img src="images/artist/artist1_small.jpg" alt="" />
+                                    <figcaption>
+                                       <!-- NAME -->
+                                       <h2>GIYLIAN </h2>
+                                       <!-- DETAILS -->
+                                       <p>Bass Trance King 
+                                       </p>
+                                       <!--VIEW MORE LINK -->
+                                       <a href="#artist-section/artist1"><span class="artist-name">GIYLIAN</span> </a>
+                                    </figcaption>
+                                 </figure>
+                                 <!-- END ARTIST -->
+                                 <!-- START ARTIST -->
+                                 <figure class="effect-artist">
+                                    <img src="images/artist/artist2_small.jpg" alt="" />
+                                    <figcaption>
+                                       <!-- NAME -->
+                                       <h2>TIMOTHY</h2>
+                                       <!-- DETAILS -->
+                                       <p> Off Break Spinner
+                                       </p>
+                                       <!--VIEW MORE LINK -->
+                                       <a href="#artist-section/artist2"><span class="artist-name">TIMOTHY</span>  </a>
+                                    </figcaption>
+                                 </figure>
+                                 <!-- END ARTIST -->
+                                 <!--START ARTIST DESCRIPTION TEXT -->
+                                 <figure class="effect-artist">
+                                    <img src="images/artist/artist3_small.jpg" alt="" />
+                                    <figcaption>
+                                       <!-- NAME -->
+                                       <h2>HALLWAK</h2>
+                                       <!-- DETAILS -->
+                                       <p> Tune in Mixer
+                                       </p>
+                                       <!--VIEW MORE LINK -->
+                                       <a href="#artist-section/artist3"><span class="artist-name">HALLWAK</span> </a>
+                                    </figcaption>
+                                 </figure>
+                                 <!--END ARTIST DESCRIPTION TEXT -->
+                                 <!-- START ARTIST -->
+                                 <figure class="effect-artist">
+                                    <img src="images/artist/artist4_small.jpg" id="artist_5" alt="" />
+                                    <figcaption>
+                                       <!-- NAME -->
+                                       <h2>SAKERZ</h2>
+                                       <!-- DETAILS -->
+                                       <p>The solid Drift
+                                       </p>
+                                       <!--VIEW MORE LINK -->
+                                       <a href="#artist-section/artist4"><span class="artist-name">SAKERZ</span>  </a>
+                                    </figcaption>
+                                 </figure>
+                                 <!-- END ARTIST -->
+                                 <!-- START ARTIST -->
+                                 <figure class="effect-artist">
+                                    <img src="images/artist/artist5_small.jpg" id="artist_6" alt="" />
+                                    <figcaption>
+                                       <!-- NAME -->
+                                       <h2>FALKEN</h2>
+                                       <!-- DETAILS -->
+                                       <p>First Post Triper
+                                       </p>
+                                       <!--VIEW MORE LINK -->
+                                       <a href="#artist-section/artist5"><span class="artist-name">FALKEN</span>  </a>
+                                    </figcaption>
+                                 </figure>
+                                 <!-- END ARTIST -->
+                                 <!--START ARTIST DESCRIPTION TEXT -->
+                                 <figure class="effect-artist">
+                                    <img src="images/artist/artist6_small.jpg" alt="" />
+                                    <figcaption>
+                                       <!-- NAME -->
+                                       <h2>XAKA</h2>
+                                       <!-- DETAILS -->
+                                       <p>Vivid Game Puller 
+                                       </p>
+                                       <!--VIEW MORE LINK -->
+                                       <a href="#artist-section/artist6"><span class="artist-name">XAKA</span> </a>
+                                    </figcaption>
+                                 </figure>
+                                 <!--END ARTIST DESCRIPTION TEXT -->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- START ARTIST SLIDER CONTENT-->
+               <div class="l-slide  artist-slide artist1" data-anchor="artist1">
+                  <ul id="artist-profile-1" class="scene unselectable artist-profile" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+                     <li  class="layer" data-depth="0.10">
+                        <div id="artist-1" class="artist-image"></div>
+                     </li>
+                     <li>
+                        <div class="bg_pattern11"></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <h2 class="artist-title">GIYLIAN</h2>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <p class="title_content2"><span>Evaria Stage
+                           22:00 PM - 00:00 AM</span>
+                           <br>
+                           <span>EVERY DAY IS A NEW BEGINING<br>
+                           TAKE A DEEP BREATH<br> SMILE AND START AGAIN.</span>
+                        </p>
+                        <!-- SOCIAL LINKS -->
+                        <div class="artist-slide-social">
+                           <a target="_blank" href="https://soundcloud.com/"><i class="fa fa-soundcloud"></i></a>
+                           <a target="_blank" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+                           <a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                           <a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a>
+                           <a target="_blank" href="https://www.spotify.com/"><i class="fa fa-spotify"></i></a>
+                        </div>
+                     </li>
+                  </ul>
+                  <p class="artist-slide-prev"> PREV
+                  </p>
+                  <p class="artist-slide-next"> NEXT
+                  </p>
+               </div>
+               <!-- END ARTIST SLIDER CONTENT-->
+               <!-- START ARTIST SLIDER CONTENT-->
+               <div class="l-slide artist-slide artist2" data-anchor="artist2">
+                  <ul id="artist-profile-2" class="scene unselectable artist-profile" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+                     <li  class="layer" data-depth="0.10">
+                        <div id="artist-2"  class="artist-image"></div>
+                     </li>
+                     <li>
+                        <div class="bg_pattern11"></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <h2 class="artist-title">TIMOTHY</h2>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <p class="title_content2"><span>Barn Stage
+                           20:30 PM - 22:00 PM</span>
+                           <br>
+                           <span>LET YOUR SMILE<br>
+                           CHANGE THE WORLD<br> DONT LET THE WORLD CHNAGE YOUR SMILE.</span>
+                        </p>
+                        <!-- SOCIAL LINKS -->
+                        <div class="artist-slide-social">
+                           <a target="_blank" href="https://soundcloud.com/"><i class="fa fa-soundcloud"></i></a>
+                           <a target="_blank" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+                           <a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                           <a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a>
+                           <a target="_blank" href="https://www.spotify.com/"><i class="fa fa-spotify"></i></a>
+                        </div>
+                     </li>
+                  </ul>
+                  <p class="artist-slide-next"> NEXT
+                  </p>
+                  <p class="artist-slide-prev"> PREV
+                  </p>
+               </div>
+               <!-- START ARTIST SLIDER CONTENT-->
+               <div class="l-slide  artist-slide artist3" data-anchor="artist3">
+                  <ul id="artist-profile-3" class="scene unselectable artist-profile" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+                     <li   class="layer" data-depth="0.10">
+                        <div id="artist-3"  class="artist-image"></div>
+                     </li>
+                     <li>
+                        <div class="bg_pattern11"></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <h2 class="artist-title">HALLWAK</h2>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <p class="title_content2"><span> Yuka Stage
+                           12:00 PM - 14:00 PM</span>
+                           <br>
+                           <span>PUSH HARDER THAN YESTERDAY<br>
+                           IF YOU WANT A<br>DIFFERENT TOMMOROW.</span>
+                        </p>
+                        <!-- SOCIAL LINKS -->
+                        <div class="artist-slide-social">
+                           <a target="_blank" href="https://soundcloud.com/"><i class="fa fa-soundcloud"></i></a>
+                           <a target="_blank" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+                           <a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                           <a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a>
+                           <a target="_blank" href="https://www.spotify.com/"><i class="fa fa-spotify"></i></a>
+                        </div>
+                     </li>
+                  </ul>
+                  <p class="artist-slide-next"> NEXT
+                  </p>
+                  <div class="artist-slide-prev"> PREV
+                  </div>
+               </div>
+               <!-- START ARTIST SLIDER CONTENT-->
+               <div class="l-slide  artist-slide artist4" data-anchor="artist4">
+                  <ul id="artist-profile-4" class="scene unselectable artist-profile" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+                     <li  class="layer" data-depth="0.10">
+                        <div id="artist-4"  class="artist-image"></div>
+                     </li>
+                     <li>
+                        <div class="bg_pattern11"></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <h2 class="artist-title">SAKERZ</h2>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <p class="title_content2"><span>Humburg Stage
+                           21:00 PM - 00:00 AM</span>
+                           <br>
+                           <span>START WHERE YOU ARE<br>
+                           USE WHAT YOU HAVE <br> DO WHAT YOU CAN.</span>
+                        </p>
+                        <!-- SOCIAL LINKS -->
+                        <div class="artist-slide-social">
+                           <a target="_blank" href="https://soundcloud.com/"><i class="fa fa-soundcloud"></i></a>
+                           <a target="_blank" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+                           <a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                           <a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a>
+                           <a target="_blank" href="https://www.spotify.com/"><i class="fa fa-spotify"></i></a>
+                        </div>
+                     </li>
+                  </ul>
+                  <p class="artist-slide-next"> NEXT
+                  </p>
+                  <div class="artist-slide-prev"> PREV
+                  </div>
+               </div>
+               <!-- START ARTIST SLIDER CONTENT-->
+               <div class="l-slide  artist-slide artist5" data-anchor="artist5">
+                  <ul id="artist-profile-5" class="scene unselectable artist-profile" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+                     <li class="layer" data-depth="0.10">
+                        <div id="artist-5"  class="artist-image"></div>
+                     </li>
+                     <li>
+                        <div class="bg_pattern11"></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <h2 class="artist-title">FALKEN</h2>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <p class="title_content2"><span>Mirx Stage
+                           16:00 PM - 18:00 PM</span>
+                           <br>
+                           <span> WHAT COMES EASY<br>
+                           WONT LAST WHAT LASTS<br> WONT COME EASY</span>
+                        </p>
+                        <!-- SOCIAL LINKS -->
+                        <div class="artist-slide-social">
+                           <a target="_blank" href="https://soundcloud.com/"><i class="fa fa-soundcloud"></i></a>
+                           <a target="_blank" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+                           <a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                           <a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a>
+                           <a target="_blank" href="https://www.spotify.com/"><i class="fa fa-spotify"></i></a>
+                        </div>
+                     </li>
+                  </ul>
+                  <p class="artist-slide-next"> NEXT
+                  </p>
+                  <div class="artist-slide-prev"> PREV
+                  </div>
+               </div>
+               <!-- START ARTIST SLIDER CONTENT-->
+               <div class="l-slide  artist-slide artist6" data-anchor="artist6">
+                  <ul id="artist-profile-6" class="scene unselectable artist-profile" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+                     <li  class="layer" data-depth="0.10">
+                        <div id="artist-6"  class="artist-image"></div>
+                     </li>
+                     <li>
+                        <div class="bg_pattern11"></div>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <h2 class="artist-title">XAKA</h2>
+                     </li>
+                     <li class="layer" data-depth="0.20">
+                        <p class="title_content2"><span>Emirte Stage
+                           12:00 AM - 14:00 AM</span>
+                           <br>
+                           <span> YOU ARE ALWAYS <br>
+                           ONE DECISSION AWAY <br> FROM A GOOD LIFE</span>
+                        </p>
+                        <!-- SOCIAL LINKS -->
+                        <div class="artist-slide-social">
+                           <a target="_blank" href="https://soundcloud.com/"><i class="fa fa-soundcloud"></i></a>
+                           <a target="_blank" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+                           <a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                           <a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a>
+                           <a target="_blank" href="https://www.spotify.com/"><i class="fa fa-spotify"></i></a>
+                        </div>
+                     </li>
+                  </ul>
+                  <p class="artist-slide-next"> NEXT
+                  </p>
+                  <div class="artist-slide-prev"> PREV
+                  </div>
+               </div>
+               <div class="artist_desc" id="artist-description">
+                  <div class="artistbar">
+                     <div class="artist-bar color-1">
+                     </div>
+                  </div>
+                  <div class="artistbar">
+                     <div class="artist-bar color-2">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- END ARTIST SECTION -->
+         <!--START  SPONSOR  SECTION-->
+         <section class="l-screen sponsor-section">
+            <div class="bg_pattern"></div>
+            <div class="sub_div">
+               <header class="top-bar">
+                  <h2 class="top-bar__headline animated">SPONSORS</h2>
+               </header>
+               <div class="container  vertical-center">
+                  <div class="row ">
+                     <div id="sponsors_details">
+                        <div id="sponsors" class="sponsor-wrap effects">
+                           <!-- START SPONSOR -->
+                           <a class="col-md-3 " id="sponsor1">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/1.png"  alt="sponsor">
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor2">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/2.png" alt="sponsor" >
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor3">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/3.png" alt="sponsor" >
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor4">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/4.png" alt="sponsor" > 
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor5">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/5.png"  alt="sponsor" > 
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor6">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/6.png"  alt="sponsor" > 
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor7">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/7.png"  alt="sponsor" >
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor8">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/8.png"  alt="sponsor"> 
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor9">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/9.png"  alt="sponsor"> 
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor10">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/10.png"  alt="sponsor"> 
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor11">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/11.png"  alt="sponsor"> 
+                              </span>
+                           </a>
+                           <a class="col-md-3 col-sm-6" id="sponsor12">
+                              <span class="sponsor_text">
+                                 <!-- PNG ICON -->
+                                 <img src="images/sponsors/12.png"  alt="sponsor"> 
+                              </span>
+                           </a>
+                           <!-- END SPONSOR -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- END CLIENETS SECTION -->
+         <!-- GALLERY SECTION -->
+         <section class="l-screen gallery-section">
+            <header class="top-bar">
+               <h2 class="top-bar__headline animated">GALLERY</h2>
+            </header>
+            <div class="container vertical-center">
+               <div class="gallery">
+                  <div>
+                     <div>
+                        <div class="gallery_content">
+                           <!--START GALLERY FILTERING -->
+                           <ul id="filterOptions">
+                              <li class="active"><a href="#" class="filterOptions-links" data-filter="all"><i class="hi-icon hi-icon-mobil active"></i>FEST</a>
+                              </li>
+                              <li><a href="#" class="filterOptions-links"  data-filter="catagory1"><i class="hi-icon hi-icon-mobil"></i>ARTIST</a>
+                              </li>
+                              <li><a href="#" class="filterOptions-links"  data-filter="catagory2"><i class="hi-icon hi-icon-mobil"></i>STAGE</a>
+                              </li>
+                           </ul>
+                           <!--END GALLERY FILTERING -->
+                           <div class="gallery_contents">
+                              <div id="galleryHolder">
+                                 <div class="item catagory1 catagory2">
+                                    <a href="images/gallery/large/1.jpg" data-gal="prettyPhoto[gallery3]"><img src="images/gallery/1.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                                 <div class="item catagory1 catagory2">
+                                    <a href="images/gallery/large/2.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/2.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                                 <div class="item catagory1">
+                                    <a href="images/gallery/large/3.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/3.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                                 <div class="item catagory1 catagory2">
+                                    <a href="images/gallery/large/4.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/4.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                                 <div class="item catagory1 catagory2">
+                                    <a href="images/gallery/large/5.jpg" data-gal="prettyPhoto[gallery3]"><img src="images/gallery/5.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                                 <div class="item catagory1 catagory2">
+                                    <a href="images/gallery/large/6.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/6.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                                 <div class="item catagory2">
+                                    <a href="images/gallery/large/7.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/7.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                                 <div class="item catagory1">
+                                    <a href="images/gallery/large/8.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/8.jpg" alt="gallery" />
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--/MAIN-->
+            </div>
+         </section>
+         <section class="l-screen  ticket-section">
+            <div class="bg_pattern"></div>
+            <header class="top-bar">
+               <h2 class="top-bar__headline animated">TICKETS</h2>
+            </header>
+            <div class="container vertical-center">
+               <div class="ticket-list-wrapper"  >
+                  <div class="ticket-container" id="ticket-item-container">
+                     <!-- SWITCHER -->
+                     <div class="ticket-switcher" id="ticket-switch">
+                        <p class="fieldset">
+                           <input type="radio" name="duration-1" value="tickets" id="tickets-1" checked>
+                           <label for="tickets-1" class="book-button">BOOK</label>
+                           <input type="radio" name="duration-1" value="booking" id="booking-1">
+                           <label for="booking-1" class="reserve-button">RESERVE</label>
+                           <span class="cd-switch"></span>
+                        </p>
+                     </div>
+                     <div class="ticket  ticket-wrapper" id="ticket-item-wrapper">
+                        <!-- PRICING TABLES -->
+                        <div class="ticket-item is-visible " data-type="tickets">
+                           <h3 class="ticket-title ticket-color-1">Lime</h3>
+                           <p class="ticket-details">Perfect For Small Packs </p>
+                           <div class="ticket-amount"><span class="ticket-currency">$</span>50<span class="ticket-period">/ DAY</span>
+                           </div>
+                           <ul class="ticket-feature-details">
+                              <li class="ticket-feature">Full Entry</li>
+                              <li class="ticket-feature">Drinks Pass</li>
+                              <li class="ticket-feature">Late Exit</li>
+                           </ul>
+                           <button class="ticket-action" aria-label="Purchase this plan"><a href="https://paytm.com/">Book Now</a></button>
+                        </div>
+                        <div class="ticket-item is-visible" data-type="tickets">
+                           <h3 class="ticket-title ticket-color-2">Orange</h3>
+                           <p class="ticket-details">Suitable For Medium Packs </p>
+                           <div class="ticket-amount"><span class="ticket-currency">$</span>250<span class="ticket-period">/ DAY</span>
+                           </div>
+                           <ul class="ticket-feature-details">
+                              <li class="ticket-feature">Fest Access</li>
+                              <li class="ticket-feature">Lounge Take</li>
+                              <li class="ticket-feature">Exotic Drinks</li>
+                           </ul>
+                           <button class="ticket-action" aria-label="Purchase this plan"><a href="https://paytm.com/">Book Now</a></button>
+                        </div>
+                        <div class="ticket-item is-visible" data-type="tickets">
+                           <h3 class="ticket-title ticket-color-3">Pumkin</h3>
+                           <p class="ticket-details">Ease for Large Packs  </p>
+                           <div class="ticket-amount"><span class="ticket-currency">$</span>499<span class="ticket-period">/ DAY</span>
+                           </div>
+                           <ul class="ticket-feature-details">
+                              <li class="ticket-feature">Privilage Pass </li>
+                              <li class="ticket-feature">Pit Access</li>
+                              <li class="ticket-feature">Stay Back</li>
+                           </ul>
+                           <button class="ticket-action" aria-label="Purchase this plan"><a href="https://paytm.com/">Book Now</a></button>
+                        </div>
+                        <!-- BOOKING FORM -->
+                        <div class="ticket-item is-hidden booking-wrapper" data-type="booking">
+                           <h2 class="form-head"> Reserve Your Area</h2>
+                           <form action="#" id="reserve_form" method="post"  >
+                              <div class="lable">
+                                 <div class="booking-text">
+                                    <input type="text" class="text" name="reserve[firstName]" placeholder="First Name">
+                                 </div>
+                                 <div class="booking-text">
+                                    <input type="text" class="text"  name="reserve[lastName]" placeholder="Last Name">
+                                 </div>
+                                 <div class="clear"> </div>
+                              </div>
+                              <div class="lable-2">
+                                 <input type="text" class="text"  name="reserve[email]" placeholder="your@email.com ">
+                                 <select  name="reserve[pack]">
+                                    <option value="volvo">Lime</option>
+                                    <option value="saab">Orange</option>
+                                    <option value="mercedes">Pumkin</option>
+                                 </select>
+                                 <input type="text" class="text"  name="reserve[other]" placeholder="Other ">
+                              </div>
+                              <div class="submit">
+                                 <input type="submit" value="Reserve Now">
+                              </div>
+                              <div class="clear"> </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--START ASK US SECTION -->
+         <section class="l-screen askus-section" id="askus">
+            <div class="bg_pattern"></div>
+            <div class="container-fluid  " id="askus-container">
+               <header class="top-bar">
+                  <h2 class="top-bar__headline animated">ASK US</h2>
+               </header>
+               <div class="wraper vertical-center">
+                  <div class="askus_content_bar ">
+                     <div class="askus-head">
+                     </div>
+                     <!--START ASK US 1-->
+                     <div class="askusbar col-md-4 col-sm-4 col-xs-12" data-askus-number="1">
+                        <div class="askus-bar dark">
+                           <div class="title">
+                              <p class="askus_questions " id="qst_1">I HAVE A QUESTION ABOUT FEST. </p>
+                              <!-- ASK US QUESTION -->
+                              <div class="askus_sub_content">
+                                 <!-- DESCRIPTION ON MOUSE CLICK -->
+                                 <h3>I HAVE A QUESTION ABOUT FEST.</h3>
+                                 <p class="hidden askus-questions__answer-text" data-answer-number="1">
+                                    Please Contact Nerve Center at Entry Gate
+                                 </p>
+                              </div>
+                              <div  class="answer-button"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--END ASK US1-->
+                     <!--START ASK US 2-->
+                     <div class="askusbar col-md-4 col-sm-4 col-xs-12" data-askus-number="2">
+                        <div class="askus-bar medium">
+                           <div class="title">
+                              <p class="askus_questions" id="qst_2">WHAT KIND OF MEDICAL FACILITY HAVE AT THE FEST?</p>
+                              <!-- ASK US QUESTION -->
+                              <div class="askus_sub_content">
+                                 <!-- DESCRIPTION ON MOUSE CLICK -->
+                                 <h3>WHAT KIND OF MEDICAL FACILITY HAVE AT THE FEST?</h3>
+                                 <p class="hidden askus-questions__answer-text" data-answer-number="2">
+                                    We have extensive medical staff onsite. If, at any time during the festival you need any assistance, seek out the medical tent, or look for a nearby security officer or festival staff member.
+                                 </p>
+                              </div>
+                              <div  class="answer-button"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--END ASK US2-->
+                     <!--START ASK US 3-->
+                     <div class="askusbar col-md-4 col-sm-4 col-xs-12"   data-askus-number="3">
+                        <div class="askus-bar dark">
+                           <div class="title">
+                              <p class="askus_questions" id="qst_3">SHOULD I HAVE TO BRING ANYTHING</p>
+                              <!-- ASK US QUESTION -->
+                              <div class="askus_sub_content">
+                                 <!-- DESCRIPTION ON MOUSE CLICK -->
+                                 <h3>SHOULD I HAVE TO BRING ANYTHING</h3>
+                                 <p class="hidden askus-questions__answer-text" data-answer-number="3">
+                                    Not actually because the Shop's is thrown open after 6 p.m.
+                                 </p>
+                              </div>
+                              <div  class="answer-button"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--END ASK US3-->
+                     <!--START ASK US 4-->
+                     <div class="askusbar col-md-4 col-sm-4 col-xs-12"   data-askus-number="4">
+                        <div class="askus-bar medium">
+                           <div class="title">
+                              <p class="askus_questions" id="qst_4">WHAT TO BE CONSIDERED YOU’LL NEED</p>
+                              <!-- ASK US QUESTION -->
+                              <div class="askus_sub_content">
+                                 <!-- DESCRIPTION ON MOUSE CLICK -->
+                                 <h3>WHAT TO BE CONSIDERED YOU’LL NEED</h3>
+                                 <p class="hidden askus-questions__answer-text" data-answer-number="4">
+                                    Fans can enjoy a variety of appetizing food choices from traditional festival and fair food to gourmet food trucks.
+                                 </p>
+                              </div>
+                              <div  class="answer-button"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--END ASK US4-->
+                     <!--START ASK US 5-->
+                     <div class="askusbar col-md-4 col-sm-4 col-xs-12"   data-askus-number="5">
+                        <div class="askus-bar dark">
+                           <div class="title">
+                              <p class="askus_questions" id="qst_5">WILL YOU HAVE A WATER PROGRAM?</p>
+                              <!-- ASK US QUESTION -->
+                              <div class="askus_sub_content">
+                                 <!-- DESCRIPTION ON MOUSE CLICK -->
+                                 <h3>WILL YOU HAVE A WATER PROGRAM?</h3>
+                                 <p class="hidden askus-questions__answer-text" data-answer-number="5">
+                                    Yes, there will be free filtered water service onsite with different areas.
+                                 </p>
+                              </div>
+                              <div  class="answer-button"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--END ASK US 5-->
+                     <!--START ASK US 6-->
+                     <div class="askusbar col-md-4 col-sm-4 col-xs-12"   data-askus-number="6">
+                        <div class="askus-bar medium">
+                           <div class="title">
+                              <p class="askus_questions" id="qst_6">DO YOU PROVIDE TRANSPORTATION?</p>
+                              <!-- ASK US QUESTION -->
+                              <div class="askus_sub_content">
+                                 <!-- DESCRIPTION ON MOUSE CLICK -->
+                                 <h3>DO YOU PROVIDE TRANSPORTATION?</h3>
+                                 <p class="hidden askus-questions__answer-text" data-answer-number="5">
+                                    Yes, there will be free drop service onsite to different stations.
+                                 </p>
+                              </div>
+                              <div  class="answer-button"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--END ASK US 5-->
+                  </div>
+               </div>
+               <div id="askus-answers">
+                  <div id="askus-answers-inner">
+                     <div class="askus-question-icon">
+                        <i class="fa fa-question" aria-hidden="true"></i>
+                     </div>
+                     <h3>Ask us Question </h3>
+                     <div class="askus-show-answer">
+                     </div>
+                  </div>
+                  <div class="askus-controls">
+                     <div class="askus-controls-inner">
+                        <span class="askus-close-button">
+                        <a   href="#askus-section"  id="askus_close" class="cd-close" title="close"></a>
+                        </span>
+                        <a href="#askus-section" class="askus-prev-button">
+                        <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a href="#askus-section" class="askus-next-button">
+                        <i class="fa fa-angle-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- END ASK US SECTION -->
+         <!--START CONTACT SECTION -->
+         <section class="l-screen contact-section" id="contact-form-container">
+            <div class="bg_pattern"></div>
+            <header class="top-bar">
+               <h2 class="top-bar__headline ">CONNECT</h2>
+            </header>
+            <div class="container-fluid vertical-center">
+               <div class="contact">
+                  <div class="contact-content">
+                     <div class="container">
+                        <div class="col-md-12 contact-right">
+                           <!--START CONTACT DETAILS -->
+                           <div class="contact-info-wrapper">
+                              <div class="contact-info text-center col-sm-12 fadeIn animated">
+                                 <div class="col-sm-4">
+                                    <h3>Spot The Show</h3>
+                                    <p>ALPHA ZONE<br>MAIN STAGE</p>
+                                 </div>
+                                 <div class="col-sm-4">
+                                    <div class="phone">
+                                       <h3>Ring Us</h3>
+                                       <p>KARTIK ALAWADHI-9896268091<br>
+                                          KARTIK VIJ-8756432197
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-4">
+                                    <div class="email">
+                                       <h3>Drop us a email</h3>
+                                       <p>kartikalawadhi2011@gmail.com<br>
+                                          vijkartik98@gmail.com
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!--END CONTACT DETAILS -->
+                           <!--START CONTACT FORM INPUTS-->
+                           <form action="#" id="mail_form" method="post">
+                              <input type="text" placeholder="Your name" name="contact[name]">
+                              <input type="text" placeholder="Your email" name="contact[email]">
+                              <textarea placeholder="Your message" id="message" name="contact[message]"></textarea>
+                              <br>
+                              <div class="submit">
+                                 <span> <input type="submit" value="Send Message"></span>
+                              </div>
+                           </form>
+                           <!--END CONTACT FORM INPUTS-->
+                        </div>
+                        <div class="clearfix"></div>
+                     </div>
+                     <div class="result"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- END CONTACT SECTION -->
+         <section class="l-screen reach-section" >
+            <div class="bg_pattern"></div>
+            <header class="top-bar">
+               <h2 class="top-bar__headline ">REACH</h2>
+            </header>
+            <div class="container-fluid vertical-center">
+               <div class="reach-us-wrapper" >
+                  <div class="reach-us-container">
+                     <div class="map-wrapper">
+                        <div class="map-box-container">
+                           <div class="map-box box1">
+                              <div class="inner">
+                                 <span>Airport</span>
+                                 <span class="map-box-number">10</span>
+                                 <span> Miles</span>
+                                 <span>MOHALI AIRPORT</span>
+                              </div>
+                           </div>
+                           <div class="map-box box2">
+                              <div class="inner">
+                                 <span>Trains</span>
+                                 <span class="map-box-number">08</span>
+                                 <span> Miles</span>
+                                 <span>RAJPURA JN.</span>
+                              </div>
+                           </div>
+                           <div class="map-box box3">
+                              <div class="inner">
+                                 <span>BUSES</span>
+                                 <span class="map-box-number">25</span>
+                                 <span> Miles</span>
+                                 <span>CHANDIGARH BUS STAND</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="map-wrapper">
+                        <div class="reach-us-info-container"  >
+                           <div class="reach-us-info"  ><a href="https://book.olacabs.com/">BOOK RIDE</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="map-canvas-container"  >
+               <div id="map_canvas">
+               </div>
+            </div>
+            <div class="map-container">
+            </div>
+            <!-- -->
+         </section>
+         <section class="l-screen footer-section"  >
+            <div class="bg_pattern"></div>
+            <header class="top-bar">
+               <h2 class="top-bar__headline ">CREDITS</h2>
+            </header>
+            <div class="container-fluid vertical-center">
+               <div class="credit-wrapper">
+                  <div class="footer-box-container ">
+                     <div class="footer-box box1">
+                        <div class="inner">
+                           <p><span class="number count" data-count="257">257</span> <span class="credit-number-desc">SONGS PLAYED</span>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="footer-box box2">
+                        <div class="inner">
+                           <p><span class="number count"  data-count="120">120</span> <span class="credit-number-desc">ARTISTS PERFOMED</span>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="footer-box box3">
+                        <div class="inner">
+                           <p><span class="number count"  data-count="140">140</span><span class="credit-number-desc">HOURS FEST</span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-text">
+                     <p><span class="top-head">Life  begins  </span>  at Night
+                        <br><span class="top-head">Make the most out of fest and   </span> worry about it all tomorrow
+                        <br> <span class="top-head">There are shortcuts to happiness,<br>  </span> and dancing is one of them
+                        <span class="top-head">If you obey all the rules you miss  </span>
+                        <br>all the fun
+                        <span class="top-head">Drink all day  </span>play all night
+                     </p>
+                  </div>
+                  <div class="footer-box-container ">
+                     <div class="footer-box2 box1">
+                        <div class="inner">
+                           <img src="images/5.png"  alt="credit-logo">
+                        </div>
+                     </div>
+                     <div class="footer-box2 box2" >
+                        <div class="inner">
+                           <img src="images/7.png" alt="credit-logo">
+                        </div>
+                     </div>
+                     <div class="footer-box2 box3">
+                        <div class="inner">
+                           <img src="images/11.png" alt="credit-logo">
+                        </div>
+                     </div>
+                     <div class="footer-box2 box4">
+                        <div class="inner">
+                           <img src="images/10.png" alt="credit-logo">
+                        </div>
+                     </div>
+                  </div>
+                  <ul class="credits-social">
+                     <li><a target="_blank" href="https://soundcloud.com/" class="bt-icon"><i class="fa fa-soundcloud"></i></a>
+                     </li>
+                     <li><a target="_blank"  href="https://vimeo.com/" class="bt-icon"><i class="fa fa-vimeo"></i></a>
+                     </li>
+                     <li><a target="_blank" href="http://www.youtube.com/" class="bt-icon"><i class="fa fa-youtube"></i></a>
+                     </li>
+                     <li><a target="_blank" href="https://www.spotify.com/" class="bt-icon"><i class="fa fa-spotify"></i></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- END MAIN DIV -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/jquery-migrate.min.js"></script>
+      <script src="js/jquery-ui.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/iscroll.js"></script>
+      <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+      <script src="js/gallery_modernizr.custom.js"></script>
+      <!-- GALLERY -->
+      <script src="js/masonry.pkgd.min.js"></script>
+      <script src="js/imagesloaded.js"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <!-- PARALLAX-->
+      <script src="js/parallax.js"></script>
+      <!-- MUSIC PLAYER -->
+      <script src="js/audio.js"></script>
+      <!-- DISCLAIMER -->
+      <script src="js/jquery.cookie.js"></script>
+      <!-- TWITTER -->
+      <script async src="js/widgets.js" charset="utf-8"></script>
+      <!-- GOOGLE MAP -->
+      <script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyBy450IAfkXjvqjM2w09pNnCkBX8Z1KRkg"></script>
+      <!-- EVENTS -->
+      <script src="js/eventPause-min.js"></script>
+      <!-- CUSTOM JS -->
+      <script src="js/contact.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+
+<!-- Mirrored from app.ergo7.net/FreeSpirit/demo/single-section.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Oct 2017 06:16:34 GMT -->
+</html>
